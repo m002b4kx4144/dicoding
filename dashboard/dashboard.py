@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st 
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -221,3 +221,12 @@ with tab2:
         ax.set_ylabel('Peminjaman Sepeda')
         ax.grid(True)
         st.pyplot(fig)
+
+# Menambahkan bagian Kesimpulan
+st.header("Conclusion")
+st.markdown("""
+## Conclusion
+
+- **Kesimpulan Pertanyaan 1:** Waktu peminjaman sepeda tertinggi terjadi pada jam sibuk (08:00 dan 17:00) selama hari kerja, terutama pada musim panas.
+- **Kesimpulan Pertanyaan 2:** Suhu memiliki pengaruh positif signifikan terhadap permintaan peminjaman sepeda. Semakin tinggi suhu, semakin banyak peminjaman. Kelembapan dan kecepatan angin tidak memiliki pengaruh yang berarti.
+""")
