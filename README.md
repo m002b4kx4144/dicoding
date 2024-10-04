@@ -32,6 +32,12 @@ To run the Streamlit app for the dashboard:
 streamlit run dashboard/dashboard.py
 ```
 
+or
+
+```sh
+python -m streamlit run dashboard/dashboard.py
+```
+
 ## Folder Structure
 
 This project has the following folder structure:
