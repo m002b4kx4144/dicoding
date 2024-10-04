@@ -17,8 +17,8 @@ pip install -r requirements.txt
 If you're using a standard shell/terminal setup, here’s how to prepare the environment:
 
 ```sh
-mkdir proyek_analisis_data
-cd proyek_analisis_data
+mkdir dicoding
+cd dicoding
 pipenv install
 pipenv shell
 pip install -r requirements.txt
